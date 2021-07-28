@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A53E6AD26B174BF00505042 /* PHPickerTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E6AC26B174BF00505042 /* PHPickerTestApp.swift */; };
+		3A53E6AF26B174BF00505042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E6AE26B174BF00505042 /* ContentView.swift */; };
+		3A53E6B126B174C200505042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A53E6B026B174C200505042 /* Assets.xcassets */; };
+		3A53E6B426B174C200505042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A53E6B326B174C200505042 /* Preview Assets.xcassets */; };
+		3A53E6BF26B174C200505042 /* PHPickerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E6BE26B174C200505042 /* PHPickerTestTests.swift */; };
+		3A53E6CA26B174C300505042 /* PHPickerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E6C926B174C300505042 /* PHPickerTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A53E6BB26B174C200505042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A53E6A126B174BF00505042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A53E6A826B174BF00505042;
+			remoteInfo = PHPickerTest;
+		};
+		3A53E6C626B174C200505042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A53E6A126B174BF00505042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A53E6A826B174BF00505042;
+			remoteInfo = PHPickerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A53E6A926B174BF00505042 /* PHPickerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHPickerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A53E6AC26B174BF00505042 /* PHPickerTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerTestApp.swift; sourceTree = "<group>"; };
+		3A53E6AE26B174BF00505042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A53E6B026B174C200505042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A53E6B326B174C200505042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A53E6B526B174C200505042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A53E6BA26B174C200505042 /* PHPickerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHPickerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A53E6BE26B174C200505042 /* PHPickerTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerTestTests.swift; sourceTree = "<group>"; };
+		3A53E6C026B174C200505042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A53E6C526B174C200505042 /* PHPickerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHPickerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A53E6C926B174C300505042 /* PHPickerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerTestUITests.swift; sourceTree = "<group>"; };
+		3A53E6CB26B174C300505042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A53E6A626B174BF00505042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A53E6B726B174C200505042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A53E6C226B174C200505042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A53E6A026B174BF00505042 = {
+			isa = PBXGroup;
+			children = (
+				3A53E6AB26B174BF00505042 /* PHPickerTest */,
+				3A53E6BD26B174C200505042 /* PHPickerTestTests */,
+				3A53E6C826B174C300505042 /* PHPickerTestUITests */,
+				3A53E6AA26B174BF00505042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A53E6AA26B174BF00505042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A53E6A926B174BF00505042 /* PHPickerTest.app */,
+				3A53E6BA26B174C200505042 /* PHPickerTestTests.xctest */,
+				3A53E6C526B174C200505042 /* PHPickerTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A53E6AB26B174BF00505042 /* PHPickerTest */ = {
+			isa = PBXGroup;
+			children = (
+				3A53E6AC26B174BF00505042 /* PHPickerTestApp.swift */,
+				3A53E6AE26B174BF00505042 /* ContentView.swift */,
+				3A53E6B026B174C200505042 /* Assets.xcassets */,
+				3A53E6B526B174C200505042 /* Info.plist */,
+				3A53E6B226B174C200505042 /* Preview Content */,
+			);
+			path = PHPickerTest;
+			sourceTree = "<group>";
+		};
+		3A53E6B226B174C200505042 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A53E6B326B174C200505042 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A53E6BD26B174C200505042 /* PHPickerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A53E6BE26B174C200505042 /* PHPickerTestTests.swift */,
+				3A53E6C026B174C200505042 /* Info.plist */,
+			);
+			path = PHPickerTestTests;
+			sourceTree = "<group>";
+		};
+		3A53E6C826B174C300505042 /* PHPickerTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A53E6C926B174C300505042 /* PHPickerTestUITests.swift */,
+				3A53E6CB26B174C300505042 /* Info.plist */,
+			);
+			path = PHPickerTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A53E6A826B174BF00505042 /* PHPickerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A53E6CE26B174C300505042 /* Build configuration list for PBXNativeTarget "PHPickerTest" */;
+			buildPhases = (
+				3A53E6A526B174BF00505042 /* Sources */,
+				3A53E6A626B174BF00505042 /* Frameworks */,
+				3A53E6A726B174BF00505042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHPickerTest;
+			productName = PHPickerTest;
+			productReference = 3A53E6A926B174BF00505042 /* PHPickerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A53E6B926B174C200505042 /* PHPickerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A53E6D126B174C300505042 /* Build configuration list for PBXNativeTarget "PHPickerTestTests" */;
+			buildPhases = (
+				3A53E6B626B174C200505042 /* Sources */,
+				3A53E6B726B174C200505042 /* Frameworks */,
+				3A53E6B826B174C200505042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A53E6BC26B174C200505042 /* PBXTargetDependency */,
+			);
+			name = PHPickerTestTests;
+			productName = PHPickerTestTests;
+			productReference = 3A53E6BA26B174C200505042 /* PHPickerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A53E6C426B174C200505042 /* PHPickerTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A53E6D426B174C300505042 /* Build configuration list for PBXNativeTarget "PHPickerTestUITests" */;
+			buildPhases = (
+				3A53E6C126B174C200505042 /* Sources */,
+				3A53E6C226B174C200505042 /* Frameworks */,
+				3A53E6C326B174C200505042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A53E6C726B174C200505042 /* PBXTargetDependency */,
+			);
+			name = PHPickerTestUITests;
+			productName = PHPickerTestUITests;
+			productReference = 3A53E6C526B174C200505042 /* PHPickerTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A53E6A126B174BF00505042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3A53E6A826B174BF00505042 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3A53E6B926B174C200505042 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3A53E6A826B174BF00505042;
+					};
+					3A53E6C426B174C200505042 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3A53E6A826B174BF00505042;
+					};
+				};
+			};
+			buildConfigurationList = 3A53E6A426B174BF00505042 /* Build configuration list for PBXProject "PHPickerTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A53E6A026B174BF00505042;
+			productRefGroup = 3A53E6AA26B174BF00505042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A53E6A826B174BF00505042 /* PHPickerTest */,
+				3A53E6B926B174C200505042 /* PHPickerTestTests */,
+				3A53E6C426B174C200505042 /* PHPickerTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A53E6A726B174BF00505042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A53E6B426B174C200505042 /* Preview Assets.xcassets in Resources */,
+				3A53E6B126B174C200505042 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A53E6B826B174C200505042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A53E6C326B174C200505042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A53E6A526B174BF00505042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A53E6AF26B174BF00505042 /* ContentView.swift in Sources */,
+				3A53E6AD26B174BF00505042 /* PHPickerTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A53E6B626B174C200505042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A53E6BF26B174C200505042 /* PHPickerTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A53E6C126B174C200505042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A53E6CA26B174C300505042 /* PHPickerTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A53E6BC26B174C200505042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A53E6A826B174BF00505042 /* PHPickerTest */;
+			targetProxy = 3A53E6BB26B174C200505042 /* PBXContainerItemProxy */;
+		};
+		3A53E6C726B174C200505042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A53E6A826B174BF00505042 /* PHPickerTest */;
+			targetProxy = 3A53E6C626B174C200505042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A53E6CC26B174C300505042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A53E6CD26B174C300505042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A53E6CF26B174C300505042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PHPickerTest/Preview Content\"";
+				DEVELOPMENT_TEAM = XXB3YP77W4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PHPickerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garpix.PHPickerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A53E6D026B174C300505042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PHPickerTest/Preview Content\"";
+				DEVELOPMENT_TEAM = XXB3YP77W4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PHPickerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garpix.PHPickerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A53E6D226B174C300505042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXB3YP77W4;
+				INFOPLIST_FILE = PHPickerTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garpix.PHPickerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PHPickerTest.app/PHPickerTest";
+			};
+			name = Debug;
+		};
+		3A53E6D326B174C300505042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXB3YP77W4;
+				INFOPLIST_FILE = PHPickerTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garpix.PHPickerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PHPickerTest.app/PHPickerTest";
+			};
+			name = Release;
+		};
+		3A53E6D526B174C300505042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXB3YP77W4;
+				INFOPLIST_FILE = PHPickerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garpix.PHPickerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PHPickerTest;
+			};
+			name = Debug;
+		};
+		3A53E6D626B174C300505042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXB3YP77W4;
+				INFOPLIST_FILE = PHPickerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = garpix.PHPickerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PHPickerTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A53E6A426B174BF00505042 /* Build configuration list for PBXProject "PHPickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A53E6CC26B174C300505042 /* Debug */,
+				3A53E6CD26B174C300505042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A53E6CE26B174C300505042 /* Build configuration list for PBXNativeTarget "PHPickerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A53E6CF26B174C300505042 /* Debug */,
+				3A53E6D026B174C300505042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A53E6D126B174C300505042 /* Build configuration list for PBXNativeTarget "PHPickerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A53E6D226B174C300505042 /* Debug */,
+				3A53E6D326B174C300505042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A53E6D426B174C300505042 /* Build configuration list for PBXNativeTarget "PHPickerTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A53E6D526B174C300505042 /* Debug */,
+				3A53E6D626B174C300505042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A53E6A126B174BF00505042 /* Project object */;
+}
